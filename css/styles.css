@@ -1,16 +1,16 @@
-:root {
-    --bg-color: #fff;
-    --main-dark-color: #2E2F42;
-    --logo-color: #4D5AE5;
-    --team-sec-bg-color: #F4F4FD;
-    --second-dark-color: #434455;
-    --active-color: #404BBF;
+html {
+    background-color: #fff;
+    color: #2E2F42;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    color: #434455;
+    color: #404BBF;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--second-dark-color);
-    background-color: var(--bg-color);
+    color: #434455;
+    background-color: #fff;
 }
 
 button {
@@ -27,7 +27,7 @@ li {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: var(--logo-color);
+    color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -35,11 +35,13 @@ li {
     letter-spacing: 0.03em;
 }
 .accent {
-    color: var(--main-dark-color);
+    color: #2E2F42;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .nav-item {
-    color: var(--main-dark-color);
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -50,7 +52,7 @@ li {
 .nav-item:active,
 .nav-item:hover,
 .nav-item:focus {
-    color: var(--active-color);
+    color: #404BBF;
 }
 
 .contact-info {
@@ -58,34 +60,32 @@ li {
 }
 
 .contacts {
-    color: var(--second-dark-color);
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .contacts:hover,
 .contacts:focus {
-    color: var(--active-color);
+    color: #404BBF;
 }
 
 /*hero section*/
 .hero {
-    background-color: var(--main-dark-color);
-    color: var(--bg-color);
+    background-color: #2E2F42;
+    color: #fff;
 }
 
 .hero-title {
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
 .button {
-    background-color: var(--logo-color);
-    color: var(--bg-color);
+    background-color: #4D5AE5;
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -97,25 +97,11 @@ li {
 .button:hover,
 .button:active,
 .button:focus {
-    background-color: var(--active-color);
+    background-color: #404BBF;
 }
 
-/*About section
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}   */
-
 .about-title {
-    color: var(--main-dark-color);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -123,7 +109,7 @@ li {
 }
 
 .about-text {
-    color: var(--second-dark-color);
+    color: #434455;
     font-size: 16px;
     text-align: left;
     line-height: 1.5;
@@ -132,12 +118,11 @@ li {
 
 /*team section*/
 .team-sec {
-    background-color: var(--team-sec-bg-color);
+    background-color: #F4F4FD;
 }
 
 .team-title {
-    color: var(--main-dark-color);
-    text-align: center;
+    color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -145,11 +130,11 @@ li {
 }
 
 .member-card {
-    background-color: var(--bg-color);
+    background-color: #fff;
 }
 
 .team-member {
-    color: var(--main-dark-color);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -157,28 +142,29 @@ li {
 }
 
 .member-position {
-    color: var(--second-dark-color);
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+/*portfolio section*/
+
+.portfolio-sec {
+    background-color: #fff;
+}
+
 .portfolio-title {
-    color: var(--main-dark-color);
+    color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
-}
-
-.portfolio-sec {
-    background-color: var(--bg-color);
 }
 
 .portfolio-elem {
-    background-color: var(--bg-color);
-    color: var(--main-dark-color);
+    background-color: #fff;
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -186,7 +172,7 @@ li {
 }
 
 .portfolio-descr {
-    color: var(--second-dark-color);
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -198,12 +184,12 @@ li {
 /*footer*/
 
 .footer {
-    background-color: var(--main-dark-color);
+    background-color: #2E2F42;
 }
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
-    color: var(--logo-color);
+    color: #4D5AE5;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -212,13 +198,14 @@ li {
 }
 
 .footer-accent {
-    color: var(--team-sec-bg-color);
+    color: #F4F4FD;
+    font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .footer-text {
-    color: var(--team-sec-bg-color);
+    color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
 }

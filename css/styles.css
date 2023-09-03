@@ -81,6 +81,7 @@ li {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .button {
@@ -98,6 +99,11 @@ li {
 .button:active,
 .button:focus {
     background-color: #404BBF;
+}
+/*about section*/
+
+.about-main-title {
+    text-align: center;
 }
 
 .about-title {
@@ -127,6 +133,7 @@ li {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .member-card {
@@ -160,6 +167,7 @@ li {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-elem {
